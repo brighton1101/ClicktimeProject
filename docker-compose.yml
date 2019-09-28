@@ -6,5 +6,11 @@ services:
       dockerfile: ./infrastructure/backend/Dockerfile
     volumes:
       - ./backend/app/:/app/app/
+  frontend:
+    build:
+      context: .
+      dockerfile: ./infrastructure/frontend/Dockerfile
+    volumes:
+      - ./frontend/:/app
     ports:
-      - '3000:3000'
+      - 3000:3000

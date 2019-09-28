@@ -18,8 +18,5 @@ WORKDIR /app
 
 RUN npm install --silent
 
-# test app
-CMD ["npm", "test"]
-
 # start app
 CMD ["npm", "start"]
