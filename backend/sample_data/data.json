@@ -1,0 +1,43 @@
+{
+	"movie_choices": [
+		{
+			"title": "Star Wars Episode IV",
+			"format_options": [
+				{
+					"type": "DVD",
+					"price": 20
+				},
+				{
+					"type": "Blu-Ray",
+					"price": 25
+				}
+			]
+		},
+		{
+			"title": "Star Wars Episode V",
+			"format_options": [
+				{
+					"type": "DVD",
+					"price": 20
+				},
+				{
+					"type": "Blu-Ray",
+					"price": 25
+				}
+			]
+		},
+		{
+			"title": "Star Wars Episode VI",
+			"format_options": [
+				{
+					"type": "DVD",
+					"price": 20
+				},
+				{
+					"type": "Blu-Ray",
+					"price": 25
+				}
+			]
+		}
+	]
+}

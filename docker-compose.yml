@@ -1,0 +1,10 @@
+version: "3.7"
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: ./infrastructure/backend/Dockerfile
+    volumes:
+      - ./backend/app/:/app/app/
+    ports:
+      - '3000:3000'
