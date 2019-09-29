@@ -209,10 +209,3 @@ export default class Main extends React.Component {
         );
     }
 }
-
-/*
- (async () => {
-            console.log(await api_calls.get_data());
-            console.log(await api_calls.get_images());
-          })();
-*/

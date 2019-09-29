@@ -16,5 +16,3 @@ services:
       - ./frontend/:/app
     ports:
       - 3006:3006
-    links:
-      - backend:backend

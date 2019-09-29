@@ -30,7 +30,7 @@ export default class Item extends React.Component {
         });
         return (
             <div>
-                <img src={this.props.imageSrc}></img>
+                <img src={this.props.imageSrc} alt={this.props.itemName}></img>
                 <p>Movie Title:</p>
                 <p>{this.props.itemName}</p>
                 <p>Purchase Options:</p>
